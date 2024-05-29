@@ -1,0 +1,17 @@
+.poster-wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.poster-leftside-quote{
+    width: 50%;
+    font-size: 85px;
+}
+.poster-rightside-picture{
+    width: 50%;
+}
+.poster-img{
+    width: 100%;
+}
