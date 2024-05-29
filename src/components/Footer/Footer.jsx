@@ -41,7 +41,8 @@ export default function Footer() {
             <Typography variant="caption" color="initial">
               Copyright ©2024. [] Limited
             </Typography>
-          </Box>
+              
+          </Box> 
         </Container>
       </Paper>
       </>

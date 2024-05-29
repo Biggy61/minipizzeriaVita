@@ -1,4 +1,5 @@
 
+import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import Pizza_cards from "../../components/Pizza_cards/Pizza_cards";
 import "./Pizza.css";
@@ -29,6 +30,7 @@ export default function Pizza() {
         </Grid>
       </Grid>
 
+    <Footer />
     </>
   );
-}10
+}

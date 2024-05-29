@@ -9,7 +9,7 @@ export default function Pizza_cards(props) {
     <>
     <Card>
   
-        <img className='pizzaCards_img' src='src\img\pizza.png'/>
+       
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {props.name}
