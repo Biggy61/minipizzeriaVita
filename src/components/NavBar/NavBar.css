@@ -29,6 +29,7 @@
 
 .navbar-appbar{
     /*font-family: "Amatic SC"!important;*/
+    position: static;
     background-color: #ebe5bc!important;
     background: linear-gradient(
         to left,
@@ -40,4 +41,7 @@
         red )no-repeat;
     background-size:100% 5px;
     background-position:bottom;;
+}
+.navbar-button{
+    width: 100%;
 }

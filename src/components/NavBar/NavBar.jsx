@@ -42,6 +42,9 @@ export default function NavBar() {
            fullScreen
            fullWidth
            hideBackdrop
+           PaperProps={{
+            sx: { width: "50%" }
+           }}
            >
            <AppBar position="static" sx={{ background: '#c24848'}}>
            <Toolbar>

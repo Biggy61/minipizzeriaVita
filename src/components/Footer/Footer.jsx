@@ -39,6 +39,7 @@ export default function Footer() {
             }}
           >
             <Typography variant="caption" color="initial">
+              Štěpán Žďánský a Tadeáš Keller  <br />
               Copyright ©2024. [] Limited
             </Typography>
               
