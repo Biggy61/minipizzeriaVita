@@ -14,9 +14,10 @@ export default function Pizza_cards(props) {
   return (
     <>
     <Card sx={{ maxWidth: 300, maxHeight: 450}}>
-
-   <CardContent>
-          <img src={props.img} sx={{ maxWidth:150, maxHeight:150}} />
+ <CardActionArea>
+   <CardContent> 
+   
+          {/* <img src={props.img} sx={{ maxWidth:150, maxHeight:150}} /> */}
           <Typography gutterBottom variant="h5" component="div">
             {props.name}
             <hr class="separator" />
@@ -24,13 +25,12 @@ export default function Pizza_cards(props) {
           <Typography variant="body2" color="text.secondary">
             {props.popis}
           </Typography>
-          <Typography variant='h2' >
-            <CardActionArea>
+          <Typography variant='h6' >
+        
                  {props.price}
-            </CardActionArea>
-         
           </Typography>
-        </CardContent>
+         
+        </CardContent> </CardActionArea>
     </Card>
   
     </>
