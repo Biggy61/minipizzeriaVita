@@ -12,9 +12,10 @@ import { CardActionArea } from '@mui/material';
 export default function Pizza_cards(props) {
  
   return (
-    <>
-    <Card sx={{ maxWidth: 300, maxHeight: 450}}>
- <CardActionArea>
+    <> 
+    <CardActionArea>
+    <Card sx={{maxWidth: 300, minHeight: 150 ,maxHeight:150}}>
+
    <CardContent> 
    
           {/* <img src={props.img} sx={{ maxWidth:150, maxHeight:150}} /> */}
@@ -30,9 +31,9 @@ export default function Pizza_cards(props) {
                  {props.price}
           </Typography>
          
-        </CardContent> </CardActionArea>
+        </CardContent> 
     </Card>
-  
+  </CardActionArea>
     </>
   );
 

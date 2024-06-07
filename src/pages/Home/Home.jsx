@@ -12,7 +12,10 @@ export default function Home(){
            <NavBar />
            <Poster />
            <Location />
-           {/* <MapComponent /> */}
+      
+             <MapComponent/>
+         
+          
            <Footer />
            
         </>

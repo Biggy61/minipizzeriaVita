@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 
 
+
 export default function Footer() {
     return (
         <>
@@ -14,7 +15,6 @@ export default function Footer() {
       <Paper sx={{marginTop: 'calc(10% + 60px)',
       width: '100%',
       position: 'absolute',
-      width: '100%'
       }} component="footer" square variant="outlined">
         <Container maxWidth="lg">
           <Box
@@ -46,6 +46,7 @@ export default function Footer() {
           </Box> 
         </Container>
       </Paper>
+
       </>
     );
   }

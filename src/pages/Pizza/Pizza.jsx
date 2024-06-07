@@ -26,13 +26,25 @@ export default function Pizza() {
         <Pizza_cards name="1. Margherita" popis="rajčatový protlak, sýr eidam" price="210Kc"/>
         </Grid>
         <Grid item xs={6} md={4} lg={2}>
-        <Pizza_cards name="dřevorubecká" popis="super" price="240Kc"/>
+        <Pizza_cards name="2. Vita" popis="rajčatový protlak, sýr, žampiony, slanina, olivy" price="230Kc"/>
         </Grid>
         <Grid item xs={6} md={4} lg={2}>
-        <Pizza_cards name="sýrová" popis="super" price="220Kc"/>
+        <Pizza_cards name="3. Fantasia" popis="rajčatový protlak, sýr, salám, cibule, kukuřice" price="230Kc"/>
         </Grid>
         <Grid item xs={6} md={4} lg={2}>
-        <Pizza_cards name="quattro formaggi" popis="super" price="230Kc"/>
+        <Pizza_cards name="4. Sýrová" popis="rajčatový protlak, sýr eidam, niva, hermelín" price="230Kc"/>
+        </Grid>
+        <Grid item xs={6} md={4} lg={2}>
+        <Pizza_cards name="4. Sýrová" popis="rajčatový protlak, sýr eidam, niva, hermelín" price="230Kc"/>
+        </Grid>
+        <Grid item xs={6} md={4} lg={2}>
+        <Pizza_cards name="4. Sýrová" popis="rajčatový protlak, sýr eidam, niva, hermelín" price="230Kc"/>
+        </Grid>
+        <Grid item xs={6} md={4} lg={2}>
+        <Pizza_cards name="4. Sýrová" popis="rajčatový protlak, sýr eidam, niva, hermelín" price="230Kc"/>
+        </Grid>
+        <Grid item xs={6} md={4} lg={2}>
+        <Pizza_cards name="4. Sýrová" popis="rajčatový protlak, sýr eidam, niva, hermelín" price="230Kc"/>
         </Grid>
       </Grid>
       

@@ -5,12 +5,21 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-import { Hidden, IconButton, Drawer } from '@mui/material';
+import { Hidden, IconButton, Drawer, Typography } from '@mui/material';
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import {createMuiTheme, ThemeProvider } from '@mui/material';
 
 export default function NavBar() {
+
+  const theme = createMuiTheme({
+      button: {
+        fontFamily: [
+          'Reddit Mono'
+        ]
+      }
+  });
 
   const[open, setOpen] = useState(false);
 
@@ -27,9 +36,11 @@ export default function NavBar() {
 
         <Hidden smDown>
           <Box display={'flex'}>
+             <ThemeProvider theme={theme}>
             <Link to={"/pizza"}><Button color="inherit">Pizza</Button></Link>
             <Link to={"/pizza"}><Button color="inherit">Zmrzlina</Button></Link>
             <Link to={"/"}><Button color="inherit">Ostatní</Button></Link>
+         </ThemeProvider>
           </Box>
         </Hidden>
 

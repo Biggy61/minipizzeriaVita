@@ -17,17 +17,13 @@ const MapComponent = () => {
   const position = [50.41796576094032, 14.913899338070667];
 
   return (
-    <MapContainer center={position} zoom={13} style={{ height: "500px", width: "100%" }}>
-      <TileLayer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-      <Marker position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
+     <>
+     <div className='map-section'>
+      <div className='gmap-frame'>
+      <iframe width="100%" height="600" frameborder="" scrolling="no" marginheight="0" marginwidth="" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Laurinova%201268,%20293%2001%20Mlad%C3%A1%20Boleslav+(Mini%20pizzeria%20VITA)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
+      </div>
+     </div>
+     </>
   );
 };
 
