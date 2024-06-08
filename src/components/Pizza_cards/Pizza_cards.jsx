@@ -28,7 +28,7 @@ export default function Pizza_cards(props) {
           </Typography>
           <Typography variant='h6' >
         
-                 {props.price}
+                 {props.price}Kč
           </Typography>
          
         </CardContent> 
