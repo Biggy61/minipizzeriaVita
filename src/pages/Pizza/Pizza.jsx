@@ -67,9 +67,6 @@ export default function Pizza() {
         <Pizza_cards name="15. Dřevorubecká" popis="rajčatový protlak, sýr, anglická slanina" price="230"/>
         </Grid>
         <Grid item xs={6} md={4} lg={2}>
-        <Pizza_cards name="15. Dřevorubecká" popis="rajčatový protlak, sýr, anglická slanina" price="230"/>
-        </Grid>
-        <Grid item xs={6} md={4} lg={2}>
         <Pizza_cards name="16. Ďábelská" popis="rajčatový protlak, sýr, paprikový salám" price="230"/>
         </Grid>
         <Grid item xs={6} md={4} lg={2}>
