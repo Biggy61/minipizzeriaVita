@@ -38,7 +38,7 @@ export default function NavBar() {
           <Box display={'flex'}>
              <ThemeProvider theme={theme}>
             <Link to={"/pizza"}><Button color="inherit">Pizza</Button></Link>
-            <Link to={"/pizza"}><Button color="inherit">Zmrzlina</Button></Link>
+            <Link to={"/prodejna"}><Button color="inherit">Prodejna</Button></Link>
             <Link to={"/"}><Button color="inherit">Ostatní</Button></Link>
          </ThemeProvider>
           </Box>
