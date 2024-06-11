@@ -74,6 +74,8 @@ export default function Footer() {
                justifyContent: "center",
               display: "flex",
             }}>  
+            <a href="https://www.facebook.com/minipizzavita/?locale=cs_CZ"><img src="./src/img/fb.png" alt="" width={50}/></a>
+            <a href="https://www.instagram.com/minipizzeriavita_mb/"><img src="./src/img/fb.png" alt="" width={50}/></a>
              <Divider style={{ background: 'black' }} variant="middle" />
               Štěpán Žďánský a Tadeáš Keller  <br />
                     Copyright ©2024.
