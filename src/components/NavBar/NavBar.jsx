@@ -11,15 +11,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import {createMuiTheme, ThemeProvider } from '@mui/material';
 
+
 export default function NavBar() {
 
-  const theme = createMuiTheme({
-      button: {
-        fontFamily: [
-          'Reddit Mono'
-        ]
-      }
-  });
+
 
   const[open, setOpen] = useState(false);
 
@@ -36,11 +31,11 @@ export default function NavBar() {
 
         <Hidden smDown>
           <Box display={'flex'}>
-             <ThemeProvider theme={theme}>
+
             <Link to={"/pizza"}><Button color="inherit">Pizza</Button></Link>
-            <Link to={"/prodejna"}><Button color="inherit">Prodejna</Button></Link>
+            <Link to={"/rozvoz"}><Button color="inherit">Rozvoz</Button></Link>
             <Link to={"/"}><Button color="inherit">Ostatní</Button></Link>
-         </ThemeProvider>
+
           </Box>
         </Hidden>
 
@@ -54,7 +49,10 @@ export default function NavBar() {
            fullWidth
            hideBackdrop
            PaperProps={{
-            sx: { width: "50%" }
+            sx: { width: "50%",
+                  
+             }
+                  
            }}
            >
            <AppBar position="static" sx={{ background: '#c24848'}}>
@@ -67,7 +65,7 @@ export default function NavBar() {
 
               <Box display={'flex'} flexDirection={'column'} py={3} width={'100%'}>
               <Link to={"/pizza"}><Button color="inherit">Pizza</Button></Link>
-              <Link to={"/pizza"}><Button color="inherit">Zmrzlina</Button></Link>
+              <Link to={"/rozvoz"}><Button color="inherit">Rozvoz</Button></Link>
               <Link to={"/"}><Button color="inherit">Ostatní</Button></Link>
               </Box>
             

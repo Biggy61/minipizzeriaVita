@@ -27,6 +27,7 @@
    background-position:bottom;
 }*/
 
+
 .navbar-appbar{
     /*font-family: "Amatic SC"!important;*/
     position: static;
@@ -41,6 +42,7 @@
         red )no-repeat;
     background-size:100% 5px;
     background-position:bottom;;
+    
 }
 .navbar-button{
     width: 100%;

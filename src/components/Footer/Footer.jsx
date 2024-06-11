@@ -6,7 +6,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import MapComponent from "../MapComponent/MapComponent";
-import { TableCell, TableContainer } from "@mui/material";
 
 
 
@@ -14,12 +13,12 @@ export default function Footer() {
     return (
         <>
        
-      <Paper sx={{marginTop: '10px',
+      <Paper sx={{
       width: '100%',
       position: 'absolute',
       backgroundColor: '#C7A27C',
       }} component="footer" square variant="outlined">
-        <Container maxWidth="lg">
+    
           <Box
             sx={{
               flexGrow: 1,
@@ -33,12 +32,13 @@ export default function Footer() {
               </div>
           </Box>
   
-          
-          <Box
+ 
+          <Container columnSpacing={{ xs: 2, sm: 2, md: 1 }}
             sx={{
-              flexGrow: 1,
-              display: "flex",
+              display: "flex", 
+              justifyContent: "center",  
               mb: 2,
+              width: "100%",
             }}
           >
             <Typography variant="caption" component="h2" color="initial"
@@ -50,10 +50,17 @@ export default function Footer() {
                <Typography variant="text" component="subtitle1" color="initial"
              sx={{
               fontSize: 20,
-            }}>Po</Typography>
+              
+            }}>Po - Čt 10:00 - 20:00 <br />
+               Pá 10:00 - 22:00 <br />
+               So 11:00 - 22:00 <br />
+               Ne 11:00 - 20:00
+
+            </Typography>
               </Typography>
            
-          </Box> 
+          </Container> 
+          <MapComponent  width="100%" height="400"/>
           <Box
             sx={{
               flexGrow: 1,
@@ -62,13 +69,18 @@ export default function Footer() {
               mb: 2,
             }}
           >
-            <Typography variant="caption" color="initial">
+
+            <Typography variant="caption" color="initial" sx={{
+               justifyContent: "center",
+              display: "flex",
+            }}>  
+             <Divider style={{ background: 'black' }} variant="middle" />
               Štěpán Žďánský a Tadeáš Keller  <br />
-              Copyright ©2024. [] Limited
+                    Copyright ©2024.
             </Typography>
               
           </Box> 
-        </Container>
+
       </Paper>
 
       </>

@@ -15,9 +15,6 @@ export default function Home(){
            <MenuPoster />
            <Location />
            <DeliveryPoster />
-            <MapComponent/>
-         
-          
            <Footer />
            
         </>
