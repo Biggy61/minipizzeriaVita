@@ -6,8 +6,8 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import MapComponent from "../MapComponent/MapComponent";
-
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function Footer() {
     return (
@@ -60,6 +60,18 @@ export default function Footer() {
               </Typography>
            
           </Container> 
+          <Container sx={{
+            display: "flex", 
+            justifyContent: "center",  
+            width: "100%",
+          }}> 
+         <a href="https://www.facebook.com/minipizzavita/?locale=cs_CZ"><FacebookIcon sx={{
+              fontSize: 80,
+            }}/></a>
+            <a href="https://www.instagram.com/minipizzeriavita_mb/"><InstagramIcon sx={{
+              fontSize: 80,
+            }}/></a>
+            </Container>
           <MapComponent  width="100%" height="400"/>
           <Box
             sx={{
@@ -74,11 +86,10 @@ export default function Footer() {
                justifyContent: "center",
               display: "flex",
             }}>  
-            <a href="https://www.facebook.com/minipizzavita/?locale=cs_CZ"><img src="./src/img/fb.png" alt="" width={50}/></a>
-            <a href="https://www.instagram.com/minipizzeriavita_mb/"><img src="./src/img/fb.png" alt="" width={50}/></a>
+           
              <Divider style={{ background: 'black' }} variant="middle" />
               Štěpán Žďánský a Tadeáš Keller  <br />
-                    Copyright ©2024.
+                    Copyright ©2024. All rights reserved 
             </Typography>
               
           </Box> 

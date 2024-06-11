@@ -1,0 +1,25 @@
+.rozvoz-ul{
+    margin-top: 10%;
+    position: relative;
+    width: 50%;
+    height: auto;
+    font-size: 55px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rozvoz-ul li:hover{
+    color: #c24848;
+    transition: 0.4s ease;
+    font-size: 65px;
+}
+@media screen and (max-width: 600px){
+    .rozvoz-ul{
+        width: 90%;
+        height: auto;
+        font-size: 35px;
+    }
+    .rozvoz-ul li:hover{
+        font-size: 40px;
+    }
+}

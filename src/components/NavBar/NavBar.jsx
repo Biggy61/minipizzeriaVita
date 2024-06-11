@@ -50,7 +50,7 @@ export default function NavBar() {
            hideBackdrop
            PaperProps={{
             sx: { width: "50%",
-                  
+                  background:"#ebe5bc"
              }
                   
            }}

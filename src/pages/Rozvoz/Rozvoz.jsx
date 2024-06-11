@@ -1,60 +1,36 @@
 import React from 'react'
 import NavBar from '../../components/NavBar/NavBar'
-import MapComponent from '../../components/MapComponent/MapComponent'
+import PageHeading from "../../components/PageHeading/PageHeading";
 import "./Rozvoz.css"
-import { Box, Typography } from '@mui/material'
+import Footer from '../../components/Footer/Footer';
+
 export default function Rozvoz() {
   
   return (
     <>
     <NavBar />
-    <MapComponent width="100%" height="600"/>
-    
-    <Typography component="subtitle1" c sx={{
-      fontSize: 30,
-     
-      display: "flex", 
-      justifyContent: "center", 
-    }}>  
-Mladá Boleslav -
-Rozvoz Zdarma <br />
-Kosmonosy -
-Rozvoz Zdarma<br />
-Bradlec
-Rozvoz - 50 Kč <br />
-Bezděčín
-Rozvoz - 30 Kč <br /> 
-Podlázky
-Rozvoz - 30 Kč <br />
-Debř
-Rozvoz - 30 Kč <br />
-Jemníky
-Rozvoz - 30 Kč <br /> 
-Čejetice
-Rozvoz - 40 Kč <br /> 
-Dalovice
-Rozvoz - 50 Kč <br /> 
-Hrdlořezy
-Rozvoz - 50 Kč <br /> 
-Chrást
-Rozvoz - 40 Kč <br /> 
-Chudoplesy
-Rozvoz - 50 Kč <br />
-Josefův Důl
-Rozvoz - 50 Kč <br />
-Michalovice
-Rozvoz - 50 Kč <br /> 
-Plazy
-Rozvoz - 50 Kč <br /> 
-Podchlumí
-Rozvoz - 30 Kč <br />
-Podlázky
-Rozvoz - 30 Kč <br />
-Řepov
-Rozvoz - 30 Kč <br />
-Sahara
-Rozvoz - 20 Kč </Typography>
- 
+    <PageHeading pageH1="Rozvoz"/>
+    <ul className='rozvoz-ul'>
+      <li>Mladá Boleslav.............. Zdarma!</li>
+      <li>Kosmonosy................... Zdarma!</li>
+      <li>Bradlec..................... 50Kč</li>
+      <li>Bezděčín.................... 30Kč</li>
+      <li>Debř........................ 30Kč</li>
+      <li>Jemníky..................... 30Kč</li>
+      <li>Čejetice.................... 40Kč</li>
+      <li>Dalovice.................... 50Kč</li>
+      <li>Hrdlořezy................... 50Kč</li>
+      <li>Chrást...................... 40Kč</li>
+      <li>Chudoplesy.................. 50Kč</li>
+      <li>Josefův důl................. 50Kč</li>
+      <li>Michalovice................. 50Kč</li>
+      <li>Plazy....................... 50Kč</li>
+      <li>Podchlumí................... 30Kč</li>
+      <li>Podlázky.................... 30Kč</li>
+      <li>Řepov....................... 30Kč</li>
+      <li>Sahara...................... 20Kč</li>
+    </ul>
+    <Footer />
     </>
   )
 }
